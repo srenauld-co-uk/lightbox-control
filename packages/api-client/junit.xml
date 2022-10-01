@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="0.868">
+  <testsuite name="HtmlClient" errors="0" failures="0" skipped="0" timestamp="2022-10-01T01:35:05" time="0.838" tests="1">
+    <testcase classname="HtmlClient logIn() Properly logs in before attempting a use case" name="HtmlClient logIn() Properly logs in before attempting a use case" time="0.017">
+    </testcase>
+  </testsuite>
+</testsuites>

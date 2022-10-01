@@ -8,7 +8,7 @@
     "build": "npm-run-all -s \"build:typescript\"",
     "build:typescript": "tsc -p ./tsconfig.build.json",
     "lint": "eslint --ext .js,.ts,.tsx --fix src/",
-    "test": "jest --coverage . "
+    "test": "jest -u --coverage --runInBand --verbose --detectOpenHandles . "
   },  
   "files": [
     "dist/*",
