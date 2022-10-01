@@ -1,0 +1,10 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "types": ["jest"]
+    },
+    "include": ["./src/**/*.ts", "./test/**/*.ts", "test/bin/api.fixture.ts"],
+    "exclude": ["node_modules/**"]
+
+}
