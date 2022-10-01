@@ -1,5 +1,5 @@
 {
-  "name": "@srenauld/lightbox-client",
+  "name": "@srenauld-co-uk/lightbox-client",
   "version": "1.1.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
