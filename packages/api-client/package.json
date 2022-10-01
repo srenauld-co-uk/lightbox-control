@@ -56,7 +56,7 @@
   },
   "publishConfig": {
     "access": "restricted",
-    "registry": "https://gitlab.com/api/v4/projects/39652962/packages/npm/"
+    "registry": "https://npm.pkg.github.com"
   }
 
 }
