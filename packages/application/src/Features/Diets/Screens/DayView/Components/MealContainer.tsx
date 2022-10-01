@@ -1,6 +1,6 @@
 import { Button, ListItem, Overlay, Text, useTheme } from "@rneui/themed"
 import React, { useState } from "react"
-import { Meal } from '@mandl-tv/lightbox-client/dist/diet/dto/meal.dto';
+import { Meal } from '@srenauld-co-uk/lightbox-client/dist/diet/dto/meal.dto';
 import { StyleSheet, View } from "react-native";
 import Icon from 'react-native-vector-icons/Ionicons';
 import { TouchableOpacity } from "react-native";

@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSelector, createSlice, current } from "@reduxjs/toolkit";
-import { LightboxClient } from '@mandl-tv/lightbox-client';
+import { LightboxClient } from '@srenauld-co-uk/lightbox-client';
 export enum State {
     Idle = 'idle',
     Authenticating = 'authenticating',

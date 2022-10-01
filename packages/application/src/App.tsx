@@ -18,7 +18,7 @@ import { createTheme, ThemeProvider } from '@rneui/themed';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Provider as SettingsProvider, Context } from './Services/AppSettings';
 import { useContext, useEffect, useState } from 'react';
-import { LightboxLocale } from '@mandl-tv/lightbox-client/dist/types';
+import { LightboxLocale } from '@srenauld-co-uk/lightbox-client/dist/types';
 const theme = createTheme({
   lightColors: {
     primary: '#669933'

@@ -1,4 +1,4 @@
-import { Meal } from "@mandl-tv/lightbox-client/dist/diet/dto/meal.dto";
+import { Meal } from "@srenauld-co-uk/lightbox-client/dist/diet/dto/meal.dto";
 import { ListItem, Text, useTheme } from "@rneui/themed";
 import React from "react";
 import Icon from 'react-native-vector-icons/Ionicons';

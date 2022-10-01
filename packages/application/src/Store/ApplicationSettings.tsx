@@ -1,6 +1,6 @@
 import { createAction, createAsyncThunk, createSelector, createSlice, current, PrepareAction } from "@reduxjs/toolkit";
-import { LightboxClient } from '@mandl-tv/lightbox-client';
-import { LightboxLocale } from "@mandl-tv/lightbox-client/dist/types";
+import { LightboxClient } from '@srenauld-co-uk/lightbox-client';
+import { LightboxLocale } from "@srenauld-co-uk/lightbox-client/dist/types";
 
 
 type ApplicationSettings = {

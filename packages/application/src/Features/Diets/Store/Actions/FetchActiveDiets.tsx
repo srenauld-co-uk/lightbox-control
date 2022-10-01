@@ -1,4 +1,4 @@
-import { LightboxClient } from "@mandl-tv/lightbox-client";
+import { LightboxClient } from "@srenauld-co-uk/lightbox-client";
 import { ActionReducerMapBuilder, createAsyncThunk, current } from "@reduxjs/toolkit";
 import { DietState } from "../types";
 const FETCH_ACTIVE_DIETS = "lightbox/diets/fetch";

@@ -1,5 +1,5 @@
-import { withHttpScraping } from "@mandl-tv/lightbox-client";
-import { LightboxLocale } from "@mandl-tv/lightbox-client/dist/types";
+import { withHttpScraping } from "@srenauld-co-uk/lightbox-client";
+import { LightboxLocale } from "@srenauld-co-uk/lightbox-client/dist/types";
 import { createContext } from "react";
 
 type ValueProps = {

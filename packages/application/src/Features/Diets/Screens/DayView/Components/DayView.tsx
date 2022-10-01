@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Dimensions, Pressable, StyleSheet, View } from "react-native";
 import SwiperFlatList from "react-native-swiper-flatlist";
-import { Day } from '@mandl-tv/lightbox-client/dist/diet/dto/day.dto';
+import { Day } from '@srenauld-co-uk/lightbox-client/dist/diet/dto/day.dto';
 import { Button, Card, Text, withTheme } from "@rneui/themed";
 import { Context as SettingsContext } from '../../../../../Services/AppSettings';
 import format from "date-fns/fp/formatWithOptions";

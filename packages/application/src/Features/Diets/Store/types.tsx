@@ -1,4 +1,4 @@
-import { Diet } from '@mandl-tv/lightbox-client/dist/diet/dto/diet.dto';
+import { Diet } from '@srenauld-co-uk/lightbox-client/dist/diet/dto/diet.dto';
 
 export enum FetchState {
     Fetching = 'fetching',
