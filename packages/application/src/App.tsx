@@ -4,15 +4,8 @@ import { Provider, useSelector } from 'react-redux'
 import { PersistGate } from 'redux-persist/lib/integration/react'
 import { store, persistor } from './Store'
 import './Translations'
-import { LoginScreen } from './Screens/Login/Screen';
-import { NavigationContainer } from '@react-navigation/native';
-import * as LightColors from './Themes/Light/Colors';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Provider as LightboxProviderInner, defaultValue } from './Services/Lightbox';
 import Toast from 'react-native-toast-message';
-import { State, useAuthState } from './Store/Login';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { DietDayView } from './Features/Diets/Screens/DayView/DietDayView';
 import { Navigation } from './Navigation';
 import { createTheme, ThemeProvider } from '@rneui/themed';
 import { SafeAreaProvider } from 'react-native-safe-area-context';

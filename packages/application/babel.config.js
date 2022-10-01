@@ -1,4 +1,4 @@
-const presets = ['module:metro-react-native-babel-preset']
+const presets = ['@babel/preset-react', 'module:metro-react-native-babel-preset']
 const plugins = []
 
 plugins.push(
@@ -13,6 +13,8 @@ plugins.push(
     },
   ],
   'react-native-reanimated/plugin',
+  '@babel/plugin-syntax-jsx',
+  ["@babel/plugin-transform-react-jsx", { "pragma":"h" }]
 )
 
 module.exports = {

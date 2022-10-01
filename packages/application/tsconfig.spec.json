@@ -10,7 +10,7 @@
         "noEmit": true,
         "strict": true,
         "target": "esnext",
-        "jsx": "react-native",
+        "jsx": "react",
         "types": ["react-native", "react", "jest", "node"]
     },
     "include": [
